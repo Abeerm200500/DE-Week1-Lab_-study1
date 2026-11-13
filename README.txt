@@ -17,4 +17,4 @@ Before reporting, record at least two issues you found in the CSV and what you r
 3. Issue and recommendation:, no quntuty
 
 ## What the pipeline does
-Complete after the lab: In one sentence, describe how the data moves from the source to a useful output.
+The data pipeline ingests raw customer orders from a CSV file into Google BigQuery, where data quality issues (such as missing cities, non-positive quantities, and duplicates) are identified and filtered out using SQL queries, resulting in a clean, reliable dataset ready for reporting.
